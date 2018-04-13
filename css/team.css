@@ -1,0 +1,93 @@
+/**
+ *@file     team.css
+ *@author   Like (likeaixi@gmail.com)
+ *@date     2018-02-05 14:49:44
+ *@disc     团队成员详情样式文件
+ */
+.team{
+    padding-bottom: 0;
+}
+.team .title-line{
+    padding-top: 8rem;
+    min-height: 20rem;
+    background: url(../img/bg-001.png) no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.team .title-line h2{
+    color: #4D4D4D;
+    font-weight: 400;
+}
+.team .team-list img {
+    width: 15rem;
+}
+.team .team-list {
+    margin-top: 8rem;
+}
+.team .team-list .col-xs-12{
+    margin-bottom: 2rem;
+}
+.team .counselor {
+    background: #F5F5F5;
+    margin-top: 3rem;
+}
+.team .counselor dl dt img{
+    width: 10rem;
+}
+.team .counselor dl dd span{
+    display: inline-block;
+    margin: 1rem 0;
+    font-size: 1.8rem;
+}
+.team .counselor dl dd p{
+    margin-bottom: .5rem;
+    font-size: 1.2rem;
+}
+
+.team .counselor .counselor-item{
+    text-align: left;
+}
+.team .counselor .counselor-item div{
+    margin: 1rem 0;
+}
+.team .counselor .counselor-item .name span{
+    display: inline-block;
+    padding: .8rem 0 1rem;
+    border-top: 2px solid #AC957B;
+    font-size: 1.4rem;
+}
+.contact{
+    /*min-height: 130rem;*/
+}
+.contact .int-qr-code {
+    margin-top: 0;
+    /*padding-top: 110rem;*/
+}
+.counselor .title-counselor h3{
+    position: relative;
+}
+.counselor .title-counselor h3:before,.counselor .title-counselor h3:after{
+    /*content: "";*/
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*width: 8rem;*/
+    /*height: 2px;*/
+    /*background: #4D4D4D;*/
+}
+.counselor .title-counselor h3:before{
+    /*left:35%;*/
+}
+.counselor .title-counselor h3:after{
+    /*right:35%;*/
+}
+.counselor .title-counselor-en h3:before{
+    /*left:28%;*/
+}
+.counselor .title-counselor-en h3:after{
+    /*right:28%;*/
+}
+@media screen and (max-width: 767px) {
+    .contact .int-qr-code {
+        /*padding-top: 40rem;*/
+    }
+}

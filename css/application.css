@@ -1,0 +1,244 @@
+/**
+ *@file     application.css
+ *@author   Like (likeaixi@gmail.com)
+ *@date     2018-02-05 17:29:43
+ *@disc     应用详情页面
+ */
+.project-intro{
+    padding-top: 3rem;
+}
+.project-first{
+    min-height: 68rem;
+}
+.project-intro div dl{
+    background: #E0E3E8;
+    border-radius: 15px;
+}
+.project-intro div dl dt{
+    position: relative;
+}
+.project-intro div dl dt i{
+    position: absolute;
+    /*top:1rem;*/
+    top: 3rem;
+    left:0;
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    padding-left: 2rem;
+    font-size: 2.4rem;
+    font-weight: 300;
+    font-style: normal;
+    color: #fff;
+}
+.project-intro div dl dt s{
+    position: absolute;
+    bottom:2rem;
+    left:0;
+    /*display: inline-block;*/
+    /*width: 100%;*/
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 2rem;
+    font-weight: 300;
+    font-style: normal;
+    text-decoration: none;
+    color: #fff;
+}
+.project-intro div dl dt img{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.project-intro div dl dd{
+    padding: 2rem;
+}
+.project-intro div dl dd p{
+    margin: 0;
+    font-size: 1.2rem;
+    /*line-height: 1.6rem;*/
+    line-height: 2rem;
+}
+.contact{
+    /*min-height: 130rem;*/
+}
+.contact .int-qr-code {
+    margin-top: 0;
+    /*padding-top: 110rem;*/
+}
+.project-intro{
+    background: #fff;
+}
+/**技术优势**/
+.technical{
+    text-align: center;
+    background: #E3E3E3;
+    margin-top:5rem;
+}
+.technical .technical-advance{
+    height: 8rem;
+    margin-bottom: 4rem;
+    background: #B3B3B3;
+}
+.technical .technical-advance h3{
+    margin: 0;
+    line-height: 8rem;
+    color: #FFFFFF;
+}
+.advance-list{
+
+}
+.advance-height{
+    min-height: 52rem!important;
+}
+.advance-list dl{
+    padding: 2rem 2rem 4rem;
+    /*width: 36rem;*/
+    min-height: 44rem;
+    margin: 1rem auto;
+    border: 1px solid #B3B3B3;
+    border-radius: 5px;
+}
+.advance-list dl dt{
+    margin-bottom: 3rem;
+}
+.advance-list dl dd{
+    margin-bottom: 1rem;
+}
+.advance-list dl dd p{
+    line-height: 2rem;
+}
+.advance-list dl a{
+    position: relative;
+    display: inline-block;
+    height: 100%;
+}
+.advance-list dl a i{
+    position: absolute;
+    bottom: -3px;
+    left: 12rem;
+    width: 12rem;
+    border-bottom: .5rem solid red;
+}
+.advance-list dl a img{
+    width: 100%;
+}
+.advance-list .h-line{
+    display: inline-block;
+    width: 2rem;
+    border-top: 2px solid #626262;
+}
+.ecology{
+    margin-bottom: 4rem;
+    height: 36rem;
+    line-height: 36rem;
+    background: url(../img/bg-syestem.png) center 0 no-repeat;
+    background-size: cover;
+}
+.ecology span{
+    /*display: inline-block;*/
+    font-size:2.8rem;
+    color: #fff;
+}
+.ecology-list dl{
+    position: relative;
+    margin: 0;
+}
+.ecology-list div{
+    margin-bottom: 2rem;
+}
+.ecology-list dl dt img{
+    width: 100%;
+}
+.ecology-list dl dd{
+    width: 100%;
+    position: absolute;
+    bottom: 1rem;
+}
+@media (max-width: 767px) {
+    .advance-list dl a i {
+        left: 5rem;
+    }
+    .technical .technical-advance {
+        height: 5rem;
+    }
+    .technical .technical-advance h3 {
+        line-height: 5rem;
+    }
+    .ecology {
+        height: 8rem;
+        line-height: 8rem;
+    }
+    .ecology span{
+        font-size:1.6rem;
+    }
+    .ecology-list dl dd {
+        bottom: 0;
+    }
+    .advance-list dl {
+        min-height: 40rem;
+    }
+    .project-intro div dl dt s {
+        font-size: 1.8rem;
+    }
+    .project-first{
+        min-height: 50rem;
+    }
+    .advance-height{
+        min-height: 41rem!important;
+    }
+    .contact .int-qr-code {
+        /*padding-top: 40rem;*/
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .advance-list dl a i {
+        left: 7rem;
+    }
+    .ecology {
+        height: 15rem;
+        line-height: 15rem;
+    }
+    .ecology span{
+        font-size:2rem;
+    }
+    .ecology-list dl dd {
+        bottom: 0;
+    }
+    .ecology-list dl dd h4{
+        font-size: 1.2rem;
+    }
+    .ecology-list dl dd p{
+        margin: 0;
+        font-size: 1rem;
+    }
+    .project-first{
+        min-height: 69rem;
+    }
+    .advance-height{
+        min-height: 48rem!important;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .advance-list dl a i {
+        /*left: 8rem;*/
+    }
+    .ecology {
+        height: 19rem;
+        line-height: 19rem;
+    }
+    .ecology span{
+        font-size:2.4rem;
+    }
+    .ecology-list dl dd {
+        bottom: 0;
+    }
+    .project-first{
+        min-height: 70rem;
+    }
+    .advance-height{
+        min-height: 53rem!important;
+    }
+}
+@media (min-width: 1200px) {
+
+}
